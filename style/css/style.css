@@ -1,0 +1,28 @@
+.gm-navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.gm-navbar-brand,
+.gm-corrector>li>a {
+    text-transform: uppercase;
+}
+
+.gm-navbar-brand>span {
+    color: #FF0000 !important;
+}
+
+.gm-corrector>li:nth-child(2n-1) {
+    background-color: #F0F0F0;
+}
+
+.carousel .item {
+    height: calc(100vh - 64px);
+  }
+  
+
+@media screen and (max-width: 767px) {
+    .gm-corrector>li:nth-child(2n-1) {
+        background-color: inherit;
+    }
+}
